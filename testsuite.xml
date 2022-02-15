@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+
+	<parameter name="ToDoURL" value="https://www.todobackend.com/client/index.html?https://mysterious-thicket-31854.herokuapp.com/"/>
+	<parameter name="Browser" value="Chrome" />
+
+	<test name="Test Suite">
+		<classes>
+			<class
+				name="NewTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="ToDoURL" value="https://www.todobackend.com/client/index.html?https://mysterious-thicket-31854.herokuapp.com/"/>
+  <parameter name="Browser" value="Chrome"/>
+  <test thread-count="5" name="Test Suite(failed)">
+    <classes>
+      <class name="NewTest">
+        <methods>
+          <include name="test2"/>
+          <include name="beforeClass"/>
+          <include name="test1"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- NewTest -->
+    </classes>
+  </test> <!-- Test Suite(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
